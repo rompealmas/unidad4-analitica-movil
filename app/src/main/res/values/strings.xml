@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AnaliticaMovilApp</string>
+    <string name="titulo_panel">Monitor de Ciencia de Datos</string>
+    <string name="nombre_alumno">Alumno: Pérez Castro Saúl Magdiel</string>
+    <string name="estado_inicial">Estado del Modelo: En espera</string>
+    <string name="texto_boton">Sincronizar Datos</string>
+</resources>

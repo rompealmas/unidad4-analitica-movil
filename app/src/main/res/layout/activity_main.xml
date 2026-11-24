@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F8FAFC">
+
+    <!-- Título principal -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_panel"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#0F172A"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Nombre completo del alumno -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_alumno"
+        android:textSize="16sp"
+        android:textColor="#475569"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Contenedor visual del estado del modelo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#E2E8F0"
+        android:padding="16dp"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:id="@+id/tvEstadoModelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/estado_inicial"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#1E293B" />
+    </LinearLayout>
+
+    <!-- Botón para sincronizar -->
+    <Button
+        android:id="@+id/btnSincronizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton"
+        android:padding="12dp" />
+
+</LinearLayout>
