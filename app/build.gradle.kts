@@ -40,4 +40,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
+    // Retrofit y convertidor JSON (Gson)
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+
+    // Corrutinas para ejecución asíncrona en segundo plano
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
 }
